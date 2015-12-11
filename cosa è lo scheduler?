@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<title>lo scheduler</title>
+<style>
+ table{border-collapse:collapse}
+ th   {border-style:solid;
+       border-color:red;
+	   font-size:20px;
+	   font-family:verdana}
+p     {text-align:center;
+       font-family:verdana;
+	   font-size:30px;color:white}
+</style>
+<meta charset="UTF-8">
+</head>
+
+<body style="background-image: url(https://cloud.githubusercontent.com/assets/15980540/11745312/a762f340-a017-11e5-94bd-0e5987147fb2.jpg)">
+
+<p style="font-size:30px;color:red;">Lo sheduler</p>
+
+<p>Parte del sistema operativo che gestisce le richieste di programmi.In Windows lo scheduler viene chiamato:gestione processo(TASK MANAGER).</p>
+<p><img src="https://cloud.githubusercontent.com/assets/15980540/11746028/21231b0c-a01c-11e5-83d9-df9614e6d6b6.jpg"></p>
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+
+
+
+
+<p><a href="sistema operativo.html">ritorna al Sistema Operativo</a></p>
+
+</body>
+</html>
