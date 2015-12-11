@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>programma</title>
+
+<style>
+ table{border-collapse:collapse}
+ th   {border-style:solid;
+       border-color:red;
+	   font-size:20px;
+	   font-family:verdana;}
+p	  { text-align:center;
+       font-family:arial;
+	   font-size:25px;
+	   color:white;}
+</style>
+</head>
+<body style="background-image: url(calore-astratto-HD.jpg)">
+<p style="text-align:center;font-family:verdana;color:red;font-size:40px;">Il programma o software</p>
+<p style="text-align:font-family:verdana;font-size:30px;">Una serie di istruzioni scritte in un linguaggio formalizzato(html,C,C++,Java...)che possono essere eseguite da un computer.</p>
+<p><img src="https://cloud.githubusercontent.com/assets/15980540/11745762/c3ddb44e-a01a-11e5-8c0e-b266ce13b129.jpg">
+
+<br><br><br><br><br><br><br><br><br><br><br>
+
+
+<a href="sistema operativo.html">ritorna al Sistema Operativo</a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
