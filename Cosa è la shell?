@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<style>
+ table{border-collapse:collapse}
+ th   {border-style:solid;
+       border-color:red;
+	   font-size:20px;
+	   font-family:verdana;}
+p     {text-align:left;
+       font-family:arial;
+	   font-size:15px;
+	   color:white;}
+</style>
+<meta charset="UTF-8">
+<title>interfaccia grafica o testuale</title>
+</head>
+
+<body style="background-image: url(https://cloud.githubusercontent.com/assets/15980540/11745312/a762f340-a017-11e5-94bd-0e5987147fb2.jpg)">
+
+<p style="text-align:center;font-family:verdana;color:red;font-size:30px;"><em>SHELL TESTUALE O A INTERFACCIA GRAFICA</em></p>
+<p style="text-align:left;font-family:verdana;font-size:25px;">La parte più esterna del<a href="sistema operativo.html"> "sistema operativo"</a> che permette di interagire con il computer utilizzando dispositivi hardware come tastiera e mouse;può essere <a href="s-testuale.html">"testuale"</a> o ad <a href="s-interfaccia-grafica.html">"interfaccia grafica".</p>
+<br><br><br><br><br><br><br><br><br><br>
+
+
+
+
+
+
+
+
+<a href="sistema operativo.html">ritorna al Sistema Operativo</a>
+
+</body>
+</html>
