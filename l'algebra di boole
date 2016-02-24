@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento senza titolo</title>
+<style>
+ table{border-collapse:separate}
+ td   {font-size:20px;
+	   font-family:verdana;}
+p	  { text-align:left;
+       font-family:arial;
+	   font-size:25px;
+	   color:black;}
+</style>
+</head>
+
+</head>
+<body>
+
+
+
+
+
+<body>
+<p style="text-align:center;font-family:verdana;color:red;font-size:30px;">L'algebra di Boole</p>
+<table width="100%" height="40%">
+   <tr>
+    <td width="20%;">&nbsp;</td>
+    <td width="60%";>
+<p>L'algebra di BOOLE prende il nome dal suo inventore <em>George Boole</em>; nacque in inghilterra nel 1815;l'algebra di boole è caratterizzata da <strong>3 operatori logici</strong> che sono:<br><br>
+1)NOT;<br>
+<br>
+2)OR;<br>
+<br>
+3)AND.<br>
+<br>
+A causa della povertà della sua famiglia, G.B. , studiò matematica, greco, latino, francese, tedesco e italiano da autodidatta e poi in un convento.<br>G.B. è stato un matematico considerato il fondatore della logica matematica.<br>
+Per il suo lavoro sull'<em>algebra Booleana</em> si ispirò al lavoro del filosofo <em>Leibniz</em>.  </p>
+<p>L'operatore logico<em style="color:red">NOT</em>:<br><br>ha un solo imput e un solo output;<br><br><em>ES</em>:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;imput---|NOT|---output<br><br>trasforma l'"uno" in "zero" e viceversa.<br><br><em>ES</em>:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0---|NOT|---1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1---|NOT|---0<br><br>
+L'operatore logico <em style="color:red">OR</em>:<br><br>
+ha due imput e un solo output.<br><br>
+ecco la tavola della verità dell'OR:
+<table>
+ <tr> 
+  <th>imput</th><th>output</th>
+ </tr>
+ <tr> 
+  <th>00</th><th>0</th>
+ </tr>
+ <tr> 
+  <th>01</th><th>1</th>
+ </tr>
+ <tr> 
+  <th>10</th><th>1</th>
+ </tr>
+ <tr> 
+  <th>11</th><th>1</th>
+ </tr>
+</table>
+<br><br><br><br>
+Sento un improvviso rumore di vetri rotti in cucina e penso:<br>
+<em>"accidenti! <strong>o</strong> è caduto un bicchiere <strong>o</strong> è caduta una bottiglia".</em><br><br>
+La frase è vere solo se:<br><br>
+1)Sono vere entrambe le affermazioni (1 1);<br><br>
+2)almeno una è vera  (0 1; 1 0).<br><br>
+Pensando alla tavola della verità ci si deve ricordare di associare il numero "1" al vero lo "0" al falso.</p><br><br>
+<p>L'operatore logico <em style="color:red">AND</em>:<br><br>
+corrisponde alla congiunzione italiana "E". Ha due imput e un solo output.<br><br><table>
+ <tr> 
+  <th>imput</th><th>output</th>
+ </tr>
+ <tr> 
+  <th>00</th><th>0</th>
+ </tr>
+ <tr> 
+  <th>01</th><th>0</th>
+ </tr>
+ <tr> 
+  <th>10</th><th>0</th>
+ </tr>
+ <tr> 
+  <th>11</th><th>1</th>
+ </tr>
+</table>
+
+<br><br>
+<em>"oggi è mercoledì e piove"</em>.<br><br>
+La frase è vera solo se sono vere entrambe le affermazioni.<br><br>Si può usare la stessa associazione dalla tavola della verità dell'operatore logico OR.</p>
+
+
+
+
+
+
+
+</td>
+    <td width="20%;">&nbsp;</td>
+    </td>
+   </tr>
+  </table>
+
+
+
+
+
+
+
+<p style="text-align:center;"><img src=     >
+
+<br><br><br>
+
+<a href="sistema operativo.html">ritorna al Sistema Operativo</a><br><br><br><br>
+<a href="index.html">ritorna alla home</a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
