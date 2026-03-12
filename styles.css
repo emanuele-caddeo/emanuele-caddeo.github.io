@@ -959,3 +959,34 @@ a {
     gap: 0.5rem;
   }
 }
+
+
+/* ===== Smartphone simplification: hide timeline markers + add hero horizontal breathing room ===== */
+@media (max-width: 640px) {
+  .hero-copy {
+    padding-left: 0.35rem;
+    padding-right: 0.35rem;
+  }
+
+  .hero-text,
+  .hero h1 {
+    max-width: 100%;
+  }
+
+  .timeline-marker {
+    display: none !important;
+  }
+
+  .timeline {
+    padding-left: 1rem !important;
+  }
+
+  .timeline::before {
+    left: 0.35rem !important;
+  }
+
+  .timeline-card {
+    margin-left: 0 !important;
+    width: auto !important;
+  }
+}
