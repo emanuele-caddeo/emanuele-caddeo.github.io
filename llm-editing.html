@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" sizes="512x512" href="favicon.png">
+  <title>Supporting Rollback in Parametric Knowledge Editing | Emanuele Caddeo</title>
+  <meta name="description" content="Master's thesis and academic paper investigating rollback mechanisms for parametric knowledge editing in large language models." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page-bg">
+    <div class="bg-blob blob-top"></div>
+    <div class="bg-blob blob-right"></div>
+  </div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">Emanuele Caddeo</a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="index.html#bio">Bio</a>
+        <a href="index.html#experience">Experience</a>
+        <a href="index.html#education">Education</a>
+        <a href="index.html#projects">Projects</a>
+        <a href="index.html#research">Research</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="site-main">
+    <div class="container">
+      <a href="index.html#research" class="back-link">
+        <svg viewBox="0 0 24 24"><path d="M19 12H5M5 12l7-7M5 12l7 7"/></svg>
+        Research
+      </a>
+    </div>
+
+    <section class="project-hero">
+      <div class="container">
+        <div class="tag">Master's Thesis · Academic Paper</div>
+        <h1>Supporting Rollback in Parametric Knowledge Editing</h1>
+        <p class="project-tagline">Research and academic paper on reverting parametric edits applied to large language model weights — enabling safer, more manageable knowledge infrastructures built on top of LLMs.</p>
+      </div>
+    </section>
+
+    <div class="container">
+      <div class="featured-media">
+        <div class="media-placeholder">
+          <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+          <span>Featured image · diagram · figure</span>
+        </div>
+      </div>
+
+      <div class="project-body">
+        <div class="project-content reveal">
+          <h2>Overview</h2>
+          <p>
+            Parametric knowledge editing is an emerging field that explores how to directly modify
+            the factual knowledge stored in a language model's weights, without retraining. While
+            the ability to insert or update facts is well studied, the ability to safely revert
+            those changes — rolling back an edit after it has been applied — has received far less
+            attention.
+          </p>
+          <p>
+            This thesis investigates rollback mechanisms for parametric knowledge editing, analyzing
+            what happens to model behavior when edits are applied and then reversed, and what
+            conditions must hold for a rollback to be considered successful. The work examines
+            existing editing methods and proposes evaluation criteria for rollback correctness,
+            covering both the targeted fact and potential side effects on adjacent knowledge.
+          </p>
+          <p>
+            The research is also connected to a broader vision: moving from traditional database-based
+            knowledge systems toward knowledge infrastructures built directly on top of large
+            language models. In that context, rollback is a fundamental reliability primitive — just
+            as transactions and undo operations are in conventional databases.
+          </p>
+          <p>
+            The findings were published as an academic paper alongside the thesis.
+          </p>
+
+          <h2>Gallery</h2>
+          <div class="media-grid">
+            <div class="media-item">
+              <div class="media-placeholder">
+                <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+              </div>
+            </div>
+            <div class="media-item">
+              <div class="media-placeholder">
+                <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+              </div>
+            </div>
+            <div class="media-item">
+              <div class="media-placeholder">
+                <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+              </div>
+            </div>
+            <div class="media-item">
+              <div class="media-placeholder">
+                <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <aside class="project-sidebar reveal reveal-delay-1">
+          <div class="info-panel">
+            <p class="info-panel-title">Details</p>
+            <div class="info-row">
+              <span class="info-label">Type</span>
+              <span class="info-value">Research · Master's Thesis · Paper</span>
+            </div>
+            <div class="info-row">
+              <span class="info-label">Year</span>
+              <span class="info-value">2025</span>
+            </div>
+            <div class="info-row">
+              <span class="info-label">Institution</span>
+              <span class="info-value">University of Cagliari</span>
+            </div>
+            <div class="info-row">
+              <span class="info-label">Topics</span>
+              <span class="info-value">AI, LLMs, Knowledge Editing, NLP</span>
+            </div>
+            <div class="info-row">
+              <span class="info-label">Status</span>
+              <span class="info-value accent">Completed · Published</span>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="footer-brand">Emanuele Caddeo</div>
+        <p class="footer-text">Portfolio of Emanuele Caddeo — AI specialist and software developer.</p>
+      </div>
+      <div>
+        <h3 class="footer-title">Quick Links</h3>
+        <div class="footer-links">
+          <a href="index.html#bio">Bio</a>
+          <a href="index.html#experience">Experience</a>
+          <a href="index.html#education">Education</a>
+          <a href="index.html#projects">Projects</a>
+          <a href="index.html#research">Research</a>
+        </div>
+      </div>
+      <div>
+        <h3 class="footer-title">Contact</h3>
+        <div class="contact-list">
+          <a href="https://github.com/emanuele-caddeo" target="_blank" rel="noreferrer" class="contact-link">
+            <span class="contact-icon">GH</span>
+            <span>GitHub</span>
+          </a>
+          <div class="contact-link disabled" aria-disabled="true">
+            <span class="contact-icon">in</span>
+            <span>LinkedIn (temporarily disabled)</span>
+          </div>
+          <div class="contact-link disabled" aria-disabled="true">
+            <span class="contact-icon">@</span>
+            <span>Email (temporarily disabled)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>© <span id="current-year"></span> Emanuele Caddeo. All rights reserved.</p>
+        <a href="https://github.com/emanuele-caddeo" target="_blank" rel="noreferrer">github.com/emanuele-caddeo</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
