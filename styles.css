@@ -1241,6 +1241,38 @@ a {
   color: var(--accent);
 }
 
+.github-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-top: 1.25rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid rgba(34, 211, 238, 0.35);
+  border-radius: 0.75rem;
+  background: rgba(34, 211, 238, 0.08);
+  color: #cffafe;
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  word-break: break-all;
+}
+
+.github-btn:hover {
+  background: rgba(34, 211, 238, 0.16);
+  border-color: rgba(34, 211, 238, 0.6);
+  box-shadow: 0 0 12px rgba(34, 211, 238, 0.15);
+  transform: translateY(-2px);
+}
+
+.github-btn svg {
+  flex-shrink: 0;
+  width: 1.1rem;
+  height: 1.1rem;
+  fill: #cffafe;
+}
+
 .card-link {
   display: inline-flex;
   align-items: center;
