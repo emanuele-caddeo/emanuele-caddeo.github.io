@@ -54,4 +54,7 @@ document.addEventListener("DOMContentLoaded", () => {
   } else {
     revealElements.forEach((element) => element.classList.add("is-visible"));
   }
+
+  // Ensure project and timeline cards (links) are visible immediately
+  document.querySelectorAll('.project-card, .timeline-card').forEach((el) => el.classList.add('is-visible'));
 });
